@@ -1,0 +1,57 @@
+﻿Build started 10/2/2014 3:39:12 μμ.
+     1>Project "C:\Users\Antonia\Documents\Gridlab-D\module\market(xwris game_trexei swsa 30-01)\market.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "..\VS2005\x64\Debug\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\market\market.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\core /I"..\third_party\cppunit-1.12.0\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\market\\" /Fd"x64\Debug\market\vc100.pdb" /Gd /TP /errorReport:prompt auction.cpp bid.cpp controller.cpp curve.cpp double_controller.cpp generator_controller.cpp house_controller.cpp init.cpp main.cpp passive_controller.cpp stub_bidder.cpp stubauction.cpp
+         stubauction.cpp
+         stub_bidder.cpp
+         passive_controller.cpp
+         main.cpp
+         init.cpp
+         house_controller.cpp
+         generator_controller.cpp
+         double_controller.cpp
+         curve.cpp
+         controller.cpp
+         bid.cpp
+         auction.cpp
+     1>auction.cpp(254): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>auction.cpp(614): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>auction.cpp(633): warning C4018: '>' : signed/unsigned mismatch
+     1>auction.cpp(639): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\market\market.dll.embed.manifest.res" x64\Debug\market\market_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\x64\Debug\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\x64\Debug\ /LIBPATH:"C:\Users\Antonia\Documents\Gridlab-D\module\market(xwris game_trexei swsa 30-01)\x64\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\market\market.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Antonia\Documents\Gridlab-D\module\VS2005\x64\Debug\market.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\x64\Debug\market.lib" /MACHINE:X64 /DLL x64\Debug\market\market.dll.embed.manifest.res
+         x64\Debug\market\auction.obj
+         x64\Debug\market\bid.obj
+         x64\Debug\market\controller.obj
+         x64\Debug\market\curve.obj
+         x64\Debug\market\double_controller.obj
+         x64\Debug\market\generator_controller.obj
+         x64\Debug\market\house_controller.obj
+         x64\Debug\market\init.obj
+         x64\Debug\market\main.obj
+         x64\Debug\market\passive_controller.obj
+         x64\Debug\market\stub_bidder.obj
+         x64\Debug\market\stubauction.obj
+            Creating library ..\VS2005\x64\Debug\market.lib and object ..\VS2005\x64\Debug\market.exp
+         market.vcxproj -> C:\Users\Antonia\Documents\Gridlab-D\module\market(xwris game_trexei swsa 30-01)\..\VS2005\x64\Debug\market.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\market\market.dll.embed.manifest" /manifest x64\Debug\market\market.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         market.vcxproj -> C:\Users\Antonia\Documents\Gridlab-D\module\market(xwris game_trexei swsa 30-01)\..\VS2005\x64\Debug\market.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\market\market.unsuccessfulbuild".
+         Touching "x64\Debug\market\market.lastbuildstate".
+     1>Done Building Project "C:\Users\Antonia\Documents\Gridlab-D\module\market(xwris game_trexei swsa 30-01)\market.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.81

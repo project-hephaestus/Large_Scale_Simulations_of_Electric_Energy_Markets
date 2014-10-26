@@ -1,0 +1,40 @@
+﻿Build started 28/1/2013 11:18:26 πμ.
+     1>Project "C:\Users\Antonia\Documents\Gridlab-D\gridlabd-2.3-RC1\market\market.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "QuickDebug\market.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\core /I"..\third_party\cppunit-1.12.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"QuickDebug\\" /Fd"QuickDebug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt auction.cpp bid.cpp controller.cpp curve.cpp double_controller.cpp generator_controller.cpp init.cpp main.cpp passive_controller.cpp stub_bidder.cpp stubauction.cpp
+         stubauction.cpp
+         stub_bidder.cpp
+         passive_controller.cpp
+         main.cpp
+         init.cpp
+         generator_controller.cpp
+         double_controller.cpp
+         curve.cpp
+         controller.cpp
+         bid.cpp
+         auction.cpp
+     1>c:\users\antonia\documents\gridlab-d\gridlabd-2.3-rc1\market\auction.cpp(1377): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"QuickDebug\market.dll.embed.manifest.res" QuickDebug\market_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"QuickDebug\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:QuickDebug\ cppunitd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"QuickDebug\market.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Antonia\Documents\Gridlab-D\gridlabd-2.3-RC1\market\QuickDebug\market.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"QuickDebug\market.lib" /MACHINE:X86 /DLL QuickDebug\market.dll.embed.manifest.res
+         QuickDebug\auction.obj
+         QuickDebug\bid.obj
+         QuickDebug\controller.obj
+         QuickDebug\curve.obj
+         QuickDebug\double_controller.obj
+         QuickDebug\generator_controller.obj
+         QuickDebug\init.obj
+         QuickDebug\main.obj
+         QuickDebug\passive_controller.obj
+         QuickDebug\stub_bidder.obj
+         QuickDebug\stubauction.obj
+     1>LINK : fatal error LNK1104: cannot open file 'cppunitd.lib'
+     1>Done Building Project "C:\Users\Antonia\Documents\Gridlab-D\gridlabd-2.3-RC1\market\market.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.06
